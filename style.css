@@ -522,7 +522,7 @@ text-decoration-color:  rgba(235, 235, 245, 0.6);
 
 .slider-block-2{
     display: flex;
-   justify-content: flex-start;
+   justify-content: center;
     margin-top: 15px;
     display: none;
 }
@@ -547,10 +547,7 @@ text-decoration-color:  rgba(235, 235, 245, 0.6);
         flex-direction: column;
         justify-content: center;
     }
- .slider-block-2{
-     display: flex;
-     justify-content: center;
- }
+
     .slider-block{
         display: flex;
         justify-content: space-evenly;
