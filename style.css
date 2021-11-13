@@ -520,6 +520,12 @@ text-decoration-color:  rgba(235, 235, 245, 0.6);
     justify-content: space-around;
 }
 
+.slider-block-2{
+    display: flex;
+   justify-content: flex-start;
+    margin-top: 15px;
+    display: none;
+}
 
 @media (max-width:1200px) {
     .store-page{
@@ -541,7 +547,10 @@ text-decoration-color:  rgba(235, 235, 245, 0.6);
         flex-direction: column;
         justify-content: center;
     }
- 
+ .slider-block-2{
+     display: flex;
+     justify-content: center;
+ }
     .slider-block{
         display: flex;
         justify-content: space-evenly;
@@ -613,4 +622,12 @@ border-radius: 143px;
 padding:9px ;
 color:white;
 margin-right: 15px;
+}
+
+
+
+
+
+.slider-2{
+    margin-right: 30px;
 }
